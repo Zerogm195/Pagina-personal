@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root{
+    color:white;
+}
+
+/* reservar espacio para el header fijo */
+body {
+    background-image: linear-gradient(45deg, #5b0079, #0f005f);
+    font-family: "SUSE Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    align-items: center;
+    padding-top: 68px; /* iguala la altura del header para que no solape */
+}
+
+/* header fijo con altura en px (más predecible) */
+.titulo{
+    background-image: linear-gradient(337deg, rgb(227 114 255), rgb(56 62 245));
+    height: 68px;          /* evita % que varían según viewport */
+    display: flex;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    z-index: 50;
+}
+
+/* imagen responsiva relativa al ancho del contenedor principal */
+.KT{
+    display: block;
+    width: 100%;
+    max-width: 45%;    /* ahora es % relativo al contenedor (se comporta como .presentacion) */
+    height: auto;
+    border-radius: 25px;
+    margin: 1rem auto 0;
+    box-sizing: border-box;
+    margin-top: 15%;
+}
+
+/* presentación centrada y sin márgenes negativos */
+.presentacion{
+    background-image:linear-gradient(45deg,rgb(255, 133, 249), rgb(98, 55, 255)); 
+    border-radius: 25px;
+    width: 90%;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    box-sizing: border-box;
+}
+
+.listas{
+    background-image: linear-gradient(45deg, rgb(114, 255, 248), rgb(75, 56, 245));
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    padding: 60px;
+    box-sizing: border-box;
+    height: 30rem;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.hero{
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.tT{
+    margin-left: 5%;
+    font-size:1.8rem;
+}
+
+.pT{
+    text-align:center;
+    font-size:1.2rem;
+    margin:5%;
+}
+
+.Vf{
+    text-align:center;
+}
+
+.Bf{
+    text-align:center;
+}

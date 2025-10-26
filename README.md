@@ -3,6 +3,8 @@
 Este es mi primer proyecto web estático, hecho con **HTML y CSS**.  
 Forma parte de mi ruta de práctica para mejorar en desarrollo web desde lo básico hasta proyectos más completos.
 
+**[Link de la página](https://zerogm195.github.io/Pagina-personal/)**
+
 ---
 
 ## ✨ Descripción
@@ -45,4 +47,4 @@ Captura del proyecto
 
 ---
 
-⭐ *Hecho por [Zuro] [Link de la página](https://zerogm195.github.io/Pagina-personal/)*  
+⭐ *Hecho por [Zuro] 
